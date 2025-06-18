@@ -11,7 +11,7 @@ public class Cube : Shape
         else
         {
             shape = Instantiate(shapes[1]);
-            Colorize(); //inheretence!!
+            Colorize(); // INHERITANCE
         }
     }
 }

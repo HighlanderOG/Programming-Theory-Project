@@ -11,7 +11,7 @@ public class Sphere : Shape
         else
         {
             shape = Instantiate(shapes[0]);
-            Colorize(); //inheretence!!
+            Colorize(); // INHERITANCE
         }
     }
 }

@@ -10,7 +10,7 @@ public class Demonstration : MonoBehaviour
     private string m_name;
     public string playerName
     {
-        get { return m_name; } //encapsulation
+        get { return m_name; } // ENCAPSULATION
         set
         {
             if (!value.Any(char.IsDigit))

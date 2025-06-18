@@ -26,7 +26,7 @@ public class Shape : MonoBehaviour
         else
         {
             shape = Instantiate(shapes[Random.Range(0, 2)]);
-            Colorize(); //abstraction!!!
+            Colorize(); // ABSTRACTION
         }
     }
 
